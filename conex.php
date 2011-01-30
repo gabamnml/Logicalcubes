@@ -1,12 +1,12 @@
 <?php
 function Conectarse()
 {
-   if (!($link=mysql_connect("localhost","e-fac_drm_juego1","juego1")))
+   if (!($link=mysql_connect("localhost","DB_USER","DB_PASSWORD")))
    {
       echo "Error conectando a la base de datos.";
       exit();
    }
-   if (!mysql_select_db("e-factory_cl_drm_juego1",$link))
+   if (!mysql_select_db("DB_NAME",$link))
    {
       echo "Error seleccionando la base de datos.";
       exit();
