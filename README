@@ -1,5 +1,16 @@
-Esta es mi primera app bajo el controlador de versiÃ³n Git sepan disculpar
-el retardo en iniciar mi app aquÃ­.
-Salud
+ver 1.0
 
-Gabamnml
+* Detección y advertencia de Javascript
+
+* Validar IP (si el usuario a jugado o no)
+
+* Almacenar IP en base de datos
+
+* Almacenar puntaje obtenido en base de datos
+
+* Mostrar base de datos con los datos almacenados
+
+* Figura de muestra
+
+* Interacción grafica de posición
+
