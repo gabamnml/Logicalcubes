@@ -265,7 +265,7 @@
 		});				
 			}
 		</script>
-		<title>Aplicaci�n Juego L�gico, Logical Play Application</title>
+		<title>Aplicaci&oacute;n Juego L&oacute;gico, Logical Play Application</title>
 	</head>
 	<body>
 <noscript>
@@ -278,7 +278,7 @@
 #drag, #modificarlo {visibility:hidden;}
 </style>
 <div class="ui-state-error">
-<strong>Usted ya a realizado el juego, su puntuaci�n no sera grabada Gracias!</strong>
+<strong>Usted ya a realizado el juego, su puntuaci&oacute;n no sera grabada Gracias!</strong>
 </div>
 <?php endif; ?>
 <?php if (@$_GET['error'] == "success") : ?>
@@ -290,7 +290,7 @@
 </div>
 <?php endif; ?>
 		<center>
-			<h1>Aplicaci�n Juego L�gico<br />
+			<h1>Aplicaci&oacute;n Juego L&oacute;gico<br />
 Logical Play Application</h1>
 
 
@@ -327,9 +327,9 @@ Logical Play Application</h1>
 			</div>
 			<div id="pisito">&nbsp;</div>
 			<div id="description">
-<p>Encuentra la manera de cambiar los bloques que est�n en la fila inferior a la fila superior en el menor n�mero de pasos posibles (como se muestra en la figura 01). Para lo cual deber�s realizar movimientos secuenciales empezando por el bloque marcado con el n�mero �1�.
+<p>Encuentra la manera de cambiar los bloques que est&aacute;n en la fila inferior a la fila superior en el menor n&uacute;mero de pasos posibles (como se muestra en la figura 01). Para lo cual deber&aacute;s realizar movimientos secuenciales empezando por el bloque marcado con el n&uacute;mero 1.
 <br /><br />
-Find the way to change the blocks from the lower row to the upper row in the fewest number of possible steps (as one is in figure 01). Sequential movements should be done starting from the block marked as �1�.</p>
+Find the way to change the blocks from the lower row to the upper row in the fewest number of possible steps (as one is in figure 01). Sequential movements should be done starting from the block marked as 1.</p>
 </div>
 <div>Fig.01<br />
 <img src="muestra.jpg" /></div>
