@@ -265,7 +265,7 @@
 		});				
 			}
 		</script>
-		<title>Aplicación Juego Lógico, Logical Play Application</title>
+		<title>Aplicaciï¿½n Juego Lï¿½gico, Logical Play Application</title>
 	</head>
 	<body>
 <noscript>
@@ -278,7 +278,7 @@
 #drag, #modificarlo {visibility:hidden;}
 </style>
 <div class="ui-state-error">
-<strong>Usted ya a realizado el juego, su puntuación no sera grabada Gracias!</strong>
+<strong>Usted ya a realizado el juego, su puntuaciï¿½n no sera grabada Gracias!</strong>
 </div>
 <?php endif; ?>
 <?php if (@$_GET['error'] == "success") : ?>
@@ -290,7 +290,7 @@
 </div>
 <?php endif; ?>
 		<center>
-			<h1>Aplicación Juego Lógico<br />
+			<h1>Aplicaciï¿½n Juego Lï¿½gico<br />
 Logical Play Application</h1>
 
 
@@ -327,16 +327,16 @@ Logical Play Application</h1>
 			</div>
 			<div id="pisito">&nbsp;</div>
 			<div id="description">
-<p>Encuentra la manera de cambiar los bloques que están en la fila inferior a la fila superior en el menor número de pasos posibles (como se muestra en la figura 01). Para lo cual deberás realizar movimientos secuenciales empezando por el bloque marcado con el número “1”.
+<p>Encuentra la manera de cambiar los bloques que estï¿½n en la fila inferior a la fila superior en el menor nï¿½mero de pasos posibles (como se muestra en la figura 01). Para lo cual deberï¿½s realizar movimientos secuenciales empezando por el bloque marcado con el nï¿½mero ï¿½1ï¿½.
 <br /><br />
-Find the way to change the blocks from the lower row to the upper row in the fewest number of possible steps (as one is in figure 01). Sequential movements should be done starting from the block marked as “1”.</p>
+Find the way to change the blocks from the lower row to the upper row in the fewest number of possible steps (as one is in figure 01). Sequential movements should be done starting from the block marked as ï¿½1ï¿½.</p>
 </div>
 <div>Fig.01<br />
 <img src="muestra.jpg" /></div>
 		</center>
 <script language="JavaScript" type="text/javascript">
 
-var pagina="http://efactory.cl/clientes/gameofblock/testgame.php"
+var pagina="testgame.php"
 function redireccionar() 
 {
 location.href=pagina
